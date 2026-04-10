@@ -1,0 +1,18 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#07111F"/>
+  <circle cx="224" cy="120" r="220" fill="#7C5CFF" fill-opacity="0.22"/>
+  <circle cx="1020" cy="94" r="180" fill="#38BDF8" fill-opacity="0.18"/>
+  <rect x="70" y="78" width="1060" height="474" rx="36" fill="#0B1224" fill-opacity="0.84" stroke="rgba(255,255,255,0.12)"/>
+  <text x="100" y="172" fill="#D7D0FF" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">МП-Сверка by nalog.taxi</text>
+  <text x="100" y="262" fill="white" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800">Найдем потери товара</text>
+  <text x="100" y="338" fill="white" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800">и вернем деньги селлеру</text>
+  <text x="100" y="412" fill="#A9B4C8" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">Сверка движения товара, учет, претензии и мониторинг</text>
+  <rect x="100" y="466" width="292" height="58" rx="18" fill="url(#g)"/>
+  <text x="135" y="504" fill="white" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Калькулятор выгоды</text>
+  <defs>
+    <linearGradient id="g" x1="100" y1="466" x2="392" y2="524" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+</svg>
