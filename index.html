@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>МП-Сверка — найдем потери товара и вернем деньги селлеру</title>
+    <meta
+      name="description"
+      content="МП-Сверка от nalog.taxi: техническая сверка, бухгалтерский и налоговый учет потерь, претензии к маркетплейсам и регулярный мониторинг."
+    />
+    <meta name="theme-color" content="#0b1020" />
+    <meta property="og:title" content="МП-Сверка — найдем потери товара и вернем деньги селлеру" />
+    <meta
+      property="og:description"
+      content="Сверка движения товара, расчет потерь, претензии к маркетплейсу и понятная экономика для селлера."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/og-cover.svg" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "МП-Сверка",
+        "description": "Сервис по сверке товарооборота и компенсации потерь товара на маркетплейсах",
+        "serviceType": "Marketplace reconciliation service",
+        "areaServed": "RU",
+        "brand": {
+          "@type": "Brand",
+          "name": "nalog.taxi"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к контенту</a>
+
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="./index.html" aria-label="МП-Сверка, главная">
+          <span class="brand-mark">M</span>
+          <span>
+            <strong>МП-Сверка</strong>
+            <small>by nalog.taxi</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Открыть меню</span>
+        </button>
+
+        <nav class="nav-links" aria-label="Основная навигация">
+          <a href="#problem">Проблема</a>
+          <a href="#solution">Решение</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-sm btn-secondary" href="./calculator.html">Калькулятор выгоды</a>
+        </nav>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="container mobile-menu-inner">
+          <a href="#problem">Проблема</a>
+          <a href="#solution">Решение</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-block" href="./calculator.html">Открыть калькулятор</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">Сверка товарооборота и компенсация потерь товара на маркетплейсах</div>
+            <h1>Маркетплейс потерял товар?<br />Мы находим потери, считаем экономику и доводим кейс до компенсации</h1>
+            <p class="hero-text">
+              Не просто сверка. Полный цикл: сбор данных, поиск расхождений, бухгалтерский и налоговый контур,
+              претензия к маркетплейсу и перевод клиента в регулярный мониторинг.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-lg" href="./calculator.html">Посчитать выгоду</a>
+              <a class="btn btn-lg btn-secondary" href="#pricing">Посмотреть тарифы</a>
+            </div>
+
+            <div class="hero-proof">
+              <div class="proof-card">
+                <span>Фикс входа</span>
+                <strong>от 15 000 ₽</strong>
+              </div>
+              <div class="proof-card">
+                <span>Основной тариф</span>
+                <strong>от 50 000 ₽ + success fee</strong>
+              </div>
+              <div class="proof-card">
+                <span>Подписка</span>
+                <strong>от 20 000 ₽ / мес.</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-glow"></div>
+            <div class="hero-metric-card metric-primary">
+              <span class="metric-label">Что получает селлер</span>
+              <strong class="metric-value">Деньги, которые уже потеряны внутри отчетов</strong>
+              <p>Мы поднимаем расхождения из поставок, продаж, возвратов, остатков и компенсаций в один управляемый кейс.</p>
+            </div>
+
+            <div class="mini-grid">
+              <article class="mini-card">
+                <span>01</span>
+                <strong>Техническая сверка</strong>
+                <p>УПД, акты приемки, продажи, возвраты, остатки, компенсации.</p>
+              </article>
+              <article class="mini-card">
+                <span>02</span>
+                <strong>Бухгалтерия и налоги</strong>
+                <p>Проводки, учет потерь, корректировки и ограничения по документам.</p>
+              </article>
+              <article class="mini-card">
+                <span>03</span>
+                <strong>Претензия</strong>
+                <p>Готовим пакет документов и запускаем официальный контур рассмотрения.</p>
+              </article>
+              <article class="mini-card">
+                <span>04</span>
+                <strong>Мониторинг</strong>
+                <p>Не даем потерям копиться и переводим клиента в повторяемую модель.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section trust-strip">
+        <div class="container trust-row" aria-label="Маркетплейсы и сценарии работы">
+          <span>Wildberries</span>
+          <span>Ozon</span>
+          <span>FBO / FBS</span>
+          <span>Разовые кейсы</span>
+          <span>Подписочный мониторинг</span>
+          <span>Premium сопровождение</span>
+        </div>
+      </section>
+
+      <section class="section" id="problem">
+        <div class="container section-head">
+          <div>
+            <div class="eyebrow">Почему это болит</div>
+            <h2>Потери возникают в логистической цепочке, а продавец часто узнает о них слишком поздно</h2>
+          </div>
+          <p>
+            Товар может потеряться на приемке, складе, в пути, при возврате или в компенсациях. Проблема не в одном
+            отчете, а в том, что данные разбросаны и без сверки не собираются в понятную сумму к возврату.
+          </p>
+        </div>
+
+        <div class="container cards-3">
+          <article class="feature-card">
+            <div class="feature-icon">14</div>
+            <h3>Окно претензии быстро закрывается</h3>
+            <p>Для части сценариев критичны сроки. Если вовремя не зафиксировать расхождение, шанс вернуть деньги падает.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">5</div>
+            <h3>Пять источников данных вместо одного отчета</h3>
+            <p>Поставки, продажи, возвраты, остатки и компенсации нужно свести в единую модель, иначе сумма теряется.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">∞</div>
+            <h3>Ручной анализ не масштабируется</h3>
+            <p>Даже если команда разово нашла потери, без системы мониторинга они снова копятся уже в следующем цикле.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="solution">
+        <div class="container section-head section-head-dark">
+          <div>
+            <div class="eyebrow">Что делаем</div>
+            <h2>Одна сервисная линия вместо набора разрозненных услуг</h2>
+          </div>
+          <p>
+            Мы совмещаем техническую сверку, бухгалтерский и налоговый контур, юридическое сопровождение и подписочный
+            мониторинг. Для клиента это выглядит как единый маршрут: от первого файла до денег на счете.
+          </p>
+        </div>
+
+        <div class="container timeline">
+          <article class="timeline-item">
+            <span class="timeline-step">Шаг 1</span>
+            <h3>Квалификация и быстрый запуск</h3>
+            <p>Понимаем маркетплейс, период, объем, реалистичность кейса и формат старта: экспресс или полная сверка.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-step">Шаг 2</span>
+            <h3>Сбор и валидация данных</h3>
+            <p>Поднимаем УПД, акты приемки, отчеты о продажах, возвратах, остатках, компенсациях и внутренний учет клиента.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-step">Шаг 3</span>
+            <h3>Техническая сверка и расчет потерь</h3>
+            <p>Формируем реестр потерь, разделяем подтвержденные и спорные позиции, считаем сумму к претензии.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-step">Шаг 4</span>
+            <h3>Бухгалтерский и налоговый контур</h3>
+            <p>Фиксируем, как отражать потери, компенсации, ограничения по документам и корректировки учета.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-step">Шаг 5</span>
+            <h3>Претензия и регулярный мониторинг</h3>
+            <p>Запускаем официальный контур и переводим клиента в подписочный формат, чтобы не терять деньги повторно.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container section-head">
+          <div>
+            <div class="eyebrow">Почему мы выигрываем</div>
+            <h2>Не просто находим потери. Закрываем экономику кейса целиком</h2>
+          </div>
+          <p>
+            Большинство игроков закрывают только часть маршрута: либо поиск расхождений, либо юрсопровождение. Мы
+            соединяем сверку, учет, налоги и претензионную работу в один продукт.
+          </p>
+        </div>
+
+        <div class="container compare-table-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th>Критерий</th>
+                <th>МП-Сверка</th>
+                <th>Софт для сверки</th>
+                <th>Юристы</th>
+                <th>Обычная аналитика</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Автоматическая и ручная сверка</td>
+                <td>Да</td>
+                <td>Да</td>
+                <td>Нет</td>
+                <td>Частично</td>
+              </tr>
+              <tr>
+                <td>Бухгалтерский учет</td>
+                <td>Да</td>
+                <td>Нет</td>
+                <td>Нет</td>
+                <td>Нет</td>
+              </tr>
+              <tr>
+                <td>Налоговый контур</td>
+                <td>Да</td>
+                <td>Нет</td>
+                <td>Нет</td>
+                <td>Нет</td>
+              </tr>
+              <tr>
+                <td>Претензионная работа</td>
+                <td>Да</td>
+                <td>Нет</td>
+                <td>Да</td>
+                <td>Нет</td>
+              </tr>
+              <tr>
+                <td>Доступность цены</td>
+                <td>Доступно</td>
+                <td>Дорого</td>
+                <td>Дорого</td>
+                <td>Доступно</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section" id="pricing">
+        <div class="container section-head">
+          <div>
+            <div class="eyebrow">Тарифы</div>
+            <h2>Линейка, в которой есть быстрый вход, основная выручка и подписочный LTV</h2>
+          </div>
+          <p>Тарифы собраны так, чтобы продавать вход дешево, а потом переводить клиента в полную сверку и мониторинг.</p>
+        </div>
+
+        <div class="container pricing-grid">
+          <article class="pricing-card">
+            <div class="pricing-top">
+              <span class="pricing-tag">Входной продукт</span>
+              <h3>Экспресс-аудит</h3>
+              <div class="pricing-price">от 15 000 ₽</div>
+            </div>
+            <p>Быстрый сигнал по размеру проблемы за последние 3–6 месяцев.</p>
+            <ul>
+              <li>Экспресс-анализ отчетов</li>
+              <li>Оценка потенциала потерь</li>
+              <li>Рекомендации по следующему шагу</li>
+              <li>Срок: 3–5 рабочих дней</li>
+            </ul>
+          </article>
+
+          <article class="pricing-card pricing-card-featured">
+            <div class="pricing-top">
+              <span class="pricing-tag pricing-tag-accent">Основной тариф</span>
+              <h3>Глобальная сверка</h3>
+              <div class="pricing-price">от 50 000 ₽ + 10–15% success fee</div>
+            </div>
+            <p>Полная сверка за весь период работы с маркетплейсом и сопровождение до компенсации.</p>
+            <ul>
+              <li>Полная сверка поставок и движения товара</li>
+              <li>Сбор и восстановление документов</li>
+              <li>Претензии и сопровождение до результата</li>
+              <li>Бухгалтерское оформление</li>
+            </ul>
+          </article>
+
+          <article class="pricing-card">
+            <div class="pricing-top">
+              <span class="pricing-tag">Подписка</span>
+              <h3>Еженедельный мониторинг</h3>
+              <div class="pricing-price">от 20 000 ₽ / мес.</div>
+            </div>
+            <p>Регулярный контроль потерь, алерты, отчеты и поток претензий по мере выявления.</p>
+            <ul>
+              <li>Еженедельная сверка</li>
+              <li>Алерты по расхождениям</li>
+              <li>Ежемесячный отчет</li>
+              <li>Стабильная защита от накопления потерь</li>
+            </ul>
+          </article>
+
+          <article class="pricing-card">
+            <div class="pricing-top">
+              <span class="pricing-tag">Крупные кейсы</span>
+              <h3>Premium</h3>
+              <div class="pricing-price">от 100 000 ₽ + success fee</div>
+            </div>
+            <p>Персональный менеджер, приоритетные сроки и юридическое сопровождение до суда включительно.</p>
+            <ul>
+              <li>Все из глобальной сверки и мониторинга</li>
+              <li>Приоритетная команда</li>
+              <li>Интеграция с 1С клиента</li>
+              <li>Кастомный маршрут под большой объем</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="container centered-action">
+          <a class="btn btn-lg" href="./calculator.html">Открыть калькулятор выгоды</a>
+        </div>
+      </section>
+
+      <section class="section section-gradient">
+        <div class="container section-head">
+          <div>
+            <div class="eyebrow">Для кого</div>
+            <h2>Подходит и малым селлерам, и командам с крупным оборотом</h2>
+          </div>
+          <p>
+            По модели продукта ты можешь вести вход через дешевый аудит, основной сегмент закрывать глобальной сверкой,
+            а крупные кейсы переводить в премиальный формат.
+          </p>
+        </div>
+
+        <div class="container audience-grid">
+          <article class="audience-card">
+            <span>Малые</span>
+            <h3>до 1 млн ₽ / мес.</h3>
+            <p>Фокус на низкий вход, экспресс-аудит и понятный первый результат без тяжелого запуска.</p>
+          </article>
+          <article class="audience-card">
+            <span>Средние</span>
+            <h3>1–10 млн ₽ / мес.</h3>
+            <p>Основной сегмент: полный цикл услуг, возврат денег, учет и последующий мониторинг.</p>
+          </article>
+          <article class="audience-card">
+            <span>Крупные</span>
+            <h3>10+ млн ₽ / мес.</h3>
+            <p>Сложные кейсы, персональный менеджер, Premium маршрут и работа с большим массивом данных.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cases-section">
+        <div class="container case-banner">
+          <div>
+            <div class="eyebrow">Потенциал кейса</div>
+            <h2>На одном кейсе из материалов проекта потенциал возврата оценивался до 40 млн ₽</h2>
+            <p>
+              Именно поэтому калькулятор на сайте считает не только стоимость услуги, но и чистый экономический эффект для селлера.
+            </p>
+          </div>
+          <a class="btn btn-secondary btn-lg" href="./calculator.html">Сделать расчет</a>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container section-head">
+          <div>
+            <div class="eyebrow">FAQ</div>
+            <h2>Вопросы, которые чаще всего задают перед стартом</h2>
+          </div>
+          <p>Блок собран под продажу, чтобы сразу закрывать основные возражения селлера и экономить время команде.</p>
+        </div>
+
+        <div class="container faq-list">
+          <details class="faq-item" open>
+            <summary>Что именно вы делаете: аудит или полноценное сопровождение?</summary>
+            <p>
+              Зависит от тарифа. Экспресс дает оценку проблемы, глобальная сверка закрывает полный цикл, а мониторинг
+              делает контроль регулярным и повторяемым.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>Чем вы отличаетесь от юристов и сервисов аналитики?</summary>
+            <p>
+              Мы не работаем только на одном участке цепочки. Внутри продукта соединены сверка, бухгалтерия, налоги,
+              претензия и последующий мониторинг.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>Нужны ли мои внутренние данные и закупочные цены?</summary>
+            <p>
+              Да. Для качественного расчета нужны не только отчеты маркетплейса, но и внутренний учет клиента,
+              закупочные цены и история претензий.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>Когда лучше брать мониторинг, а не разовый кейс?</summary>
+            <p>
+              Когда у селлера поток поставок стабильный и потери возникают регулярно. Подписка экономически выгоднее,
+              чем возвращаться к проблеме раз в несколько месяцев.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section final-cta" id="contact">
+        <div class="container final-cta-shell">
+          <div>
+            <div class="eyebrow">CTA</div>
+            <h2>Запусти расчет и покажи селлеру не просто цену, а чистую выгоду от внедрения</h2>
+            <p>
+              Проект уже сверстан так, чтобы его можно было выгрузить в GitHub и задеплоить на Vercel без сборки и без
+              лишней настройки.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a class="btn btn-lg" href="./calculator.html">Перейти в калькулятор</a>
+            <a class="btn btn-lg btn-ghost contact-telegram" href="#">Telegram</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div>
+          <strong>МП-Сверка</strong>
+          <p>Сверка товарооборота, компенсация потерь и мониторинг для селлеров маркетплейсов.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="./calculator.html">Калькулятор</a>
+          <a href="#pricing">Тарифы</a>
+          <a class="contact-email" href="#">Email</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="currentYear"></span> МП-Сверка</span>
+        <span>Deploy-ready static project for GitHub + Vercel</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./scripts/site.js"></script>
+  </body>
+</html>
